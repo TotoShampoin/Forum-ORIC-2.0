@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'PixelMix';
+    src: url('pixelmix.ttf');
+}
+
+body
+{
+    background-image: url("Bannière.png");
+	background-repeat: no-repeat;
+	background-color: #404040;
+	font-family: Verdana;
+	color: white;
+}
+
+section
+{
+	background-color: #FF0000;
+	padding: 1px;
+	margin: 10px;
+	border: 2px #880000 solid;
+	border-radius: 20px;
+    box-shadow: 6px 6px 0px #440000;
+}
+
+section>article
+{
+	background-color: black;
+	border: 2px #880000 solid;
+	border-radius: 20px;
+	margin: 10px;
+	margin-top: 0px;
+	padding-left: 10px;
+    box-shadow: 6px 6px 0px #440000 inset;
+}
+section>article:hover
+{
+	background-color: #330000;
+	box-shadow: 6px 6px 0px #660000 inset;
+}
+
+h1
+{
+    text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2
+{
+	color: white;
+	padding-left: 15px;
+	font-family: PixelMix;
+	font-size: 16px;
+	font-style: normal;
+}
+
+a
+{
+	color: #FFCCCC;
+    font-style: normal;
+}
+a:hover
+{
+	color: red;
+    font-style: normal;
+}
+a:visited
+{
+	color: #FF8888;
+    font-style: normal;
+}
+
+#nav
+{
+	display: flex;
+	justify-content: center;
+}
+#forum
+{
+	display: flex;
+}
+#corps
+{
+	display: flex;
+}
+.button
+{
+	padding: 0px;
+	margin: 0px;
+}
+.gauche
+{
+	width: 20%;
+}
+.droite
+{
+	width: 80%;
+}
+.last
+{
+	height: 500px;
+}
